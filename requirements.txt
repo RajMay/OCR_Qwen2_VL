@@ -1,5 +1,5 @@
 Streamlit==1.38.0
-torch==2.4.1+cu118
+
 Transformers==4.46.0.dev0
 Pillow==10.4.0
 git+https://github.com/huggingface/transformers
