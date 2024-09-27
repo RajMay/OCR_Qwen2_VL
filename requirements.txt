@@ -1,6 +1,7 @@
 Streamlit==1.38.0
 Torch
-Transformers==4.46.0.dev0
+transformers==4.35.0
 Pillow==10.4.0
 git+https://github.com/huggingface/transformers
 qwen-vl-utils==0.0.8
+av==13.0.0
