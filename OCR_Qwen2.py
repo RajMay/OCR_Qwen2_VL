@@ -2,11 +2,11 @@ import streamlit as st
 from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
 from PIL import Image
-
+import torch
 
 
 print("Streamlit version:", st.__version__)
-##print("Torch version:", torch.__version__)
+print("Torch version:", torch.__version__)
 ##print("Transformers version:", transformers.__version__)
 print("Pillow (PIL) version:", Image.__version__)
 ##print("Qwen-vl-utils version:", qwen_vl_utils.__version__)
