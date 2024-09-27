@@ -1,6 +1,6 @@
-Streamlit version: 1.38.0
-Torch version: 2.4.1+cu118
-Transformers version: 4.46.0.dev0
-Pillow (PIL) version: 10.4.0
+Streamlit==1.38.0
+Torch==2.4.1+cu118
+Transformers==4.46.0.dev0
+Pillow==10.4.0
 git+https://github.com/huggingface/transformers
 qwen-vl-utils==0.0.8
