@@ -1,7 +1,10 @@
-Streamlit==1.38.0
 torch==2.4.1+cu118
-Transformers==4.46.0.dev0
+torchvision==0.16.1+cu118
+torchaudio==2.4.1+cu118
+--index-url https://download.pytorch.org/whl/cu118
+streamlit==1.38.0
 Pillow==10.4.0
-git+https://github.com/huggingface/transformers
-qwen-vl-utils==0.0.8
 av==13.0.0
+qwen-vl-utils==0.0.8
+git+https://github.com/huggingface/transformers
+
