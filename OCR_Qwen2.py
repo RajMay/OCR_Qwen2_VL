@@ -4,6 +4,20 @@ from qwen_vl_utils import process_vision_info
 from PIL import Image
 import torch
 
+import streamlit
+import torch
+import transformers
+import qwen_vl_utils
+import PIL
+
+print("Streamlit version:", streamlit.__version__)
+print("Torch version:", torch.__version__)
+print("Transformers version:", transformers.__version__)
+print("Pillow (PIL) version:", PIL.__version__)
+##print("Qwen-vl-utils version:", qwen_vl_utils.__version__)
+
+
+
 model = Qwen2VLForConditionalGeneration.from_pretrained(
     "Qwen/Qwen2-VL-2B-Instruct", torch_dtype="auto" ,device_map={"": "cpu"}
 )
