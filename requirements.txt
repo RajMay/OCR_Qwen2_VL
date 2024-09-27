@@ -7,4 +7,6 @@ Pillow==10.4.0
 av==13.0.0
 qwen-vl-utils==0.0.8
 git+https://github.com/huggingface/transformers
+setuptools>=40.8.0
+wheel
 
